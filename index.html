@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Carros</title>
+    <title>Carros Antigos à Venda</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f4f4f4;
         }
         header {
-            background-color: #333;
+            background-color: #444;
             color: white;
-            padding: 10px 0;
+            padding: 15px;
             text-align: center;
         }
         nav {
@@ -26,7 +26,7 @@
         }
         nav ul li {
             display: inline;
-            margin-right: 15px;
+            margin-right: 20px;
         }
         nav ul li a {
             color: white;
@@ -39,13 +39,14 @@
         }
         .main-content {
             float: left;
-            width: 70%;
+            width: 75%;
         }
         .sidebar {
             float: right;
-            width: 25%;
+            width: 20%;
             background-color: #e2e2e2;
             padding: 10px;
+            border-radius: 5px;
         }
         .car {
             margin-bottom: 20px;
@@ -72,7 +73,7 @@
             border-radius: 5px;
         }
         .contact-form button {
-            background-color: #333;
+            background-color: #444;
             color: white;
             border: none;
             padding: 10px 15px;
@@ -81,7 +82,7 @@
         }
         footer {
             clear: both;
-            background-color: #333;
+            background-color: #444;
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -93,13 +94,12 @@
 </head>
 <body>
     <header>
-        <h1>Site de Carros</h1>
+        <h1>Carros Antigos à Venda</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Modelos</a></li>
-                <li><a href="#">Promoções</a></li>
-                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Sobre Nós</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
@@ -107,32 +107,38 @@
     <div class="container">
         <div class="main-content">
             <section class="car">
-                <h2>Modelo de Carro 1</h2>
-                <img src="carro1.jpg" alt="Modelo de Carro 1">
-                <p><strong>Descrição:</strong> Este é um excelente carro com características incríveis e ótimo desempenho.</p>
-                <p><strong>Preço:</strong> R$ 50.000,00</p>
+                <h2>Ford Mustang 1967</h2>
+                <img src="mustang1967.jpg" alt="Ford Mustang 1967">
+                <p><strong>Descrição:</strong> Um clássico americano com motor V8 e design icônico. Restaurado e em excelente estado.</p>
+                <p><strong>Preço:</strong> R$ 120.000,00</p>
             </section>
             <section class="car">
-                <h2>Modelo de Carro 2</h2>
-                <img src="carro2.jpg" alt="Modelo de Carro 2">
-                <p><strong>Descrição:</strong> Carro de luxo com tecnologias avançadas e conforto excepcional.</p>
-                <p><strong>Preço:</strong> R$ 80.000,00</p>
+                <h2>Chevrolet Impala 1963</h2>
+                <img src="impala1963.jpg" alt="Chevrolet Impala 1963">
+                <p><strong>Descrição:</strong> Belíssimo modelo com acabamento em cromado e interior de época. Ideal para colecionadores.</p>
+                <p><strong>Preço:</strong> R$ 95.000,00</p>
+            </section>
+            <section class="car">
+                <h2>Volkswagen Fusca 1974</h2>
+                <img src="fusca1974.jpg" alt="Volkswagen Fusca 1974">
+                <p><strong>Descrição:</strong> O queridinho dos brasileiros com motor 1.6 e pintura original. Perfeito para quem ama carros antigos.</p>
+                <p><strong>Preço:</strong> R$ 30.000,00</p>
             </section>
             <!-- Adicione mais seções de carros conforme necessário -->
         </div>
         <aside class="sidebar">
             <h2>Informações Rápidas</h2>
             <ul>
-                <li><a href="#">Financiamento</a></li>
-                <li><a href="#">Garantia</a></li>
-                <li><a href="#">Test Drive</a></li>
+                <li><a href="#">História dos Carros Antigos</a></li>
+                <li><a href="#">Cuidados e Manutenção</a></li>
+                <li><a href="#">FAQ</a></li>
                 <!-- Adicione mais itens conforme necessário -->
             </ul>
         </aside>
     </div>
     <div class="container">
         <section class="contact-form">
-            <h2>Contato</h2>
+            <h2>Entre em Contato</h2>
             <form action="#" method="post">
                 <input type="text" name="nome" placeholder="Seu Nome" required>
                 <input type="email" name="email" placeholder="Seu Email" required>
@@ -142,8 +148,7 @@
         </section>
     </div>
     <footer>
-        <p>&copy; 2024 Site de Carros. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Carros Antigos à Venda. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
-
