@@ -1,1 +1,119 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Notícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .main-content {
+            float: left;
+            width: 70%;
+        }
+        .sidebar {
+            float: right;
+            width: 25%;
+            background-color: #e2e2e2;
+            padding: 10px;
+        }
+        .article {
+            margin-bottom: 20px;
+        }
+        footer {
+            clear: both;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .article img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site de Notícias</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Economia</a></li>
+                <li><a href="#">Saúde</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Entretenimento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <article class="article">
+                <h2>Título da Notícia 1</h2>
+                <p>Data da Publicação: 09 de Agosto de 2024</p>
+                <img src="imagem1.jpg" alt="Imagem da Notícia 1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel erat non nisi pretium pharetra.</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <article class="article">
+                <h2>Título da Notícia 2</h2>
+                <p>Data da Publicação: 09 de Agosto de 2024</p>
+                <img src="imagem2.jpg" alt="Imagem da Notícia 2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel erat non nisi pretium pharetra.</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <!-- Adicione mais artigos conforme necessário -->
+        </div>
+        <aside class="sidebar">
+            <h2>Últimas Notícias</h2>
+            <ul>
+                <li><a href="#">Notícia Rápida 1</a></li>
+                <li><a href="#">Notícia Rápida 2</a></li>
+                <li><a href="#">Notícia Rápida 3</a></li>
+                <!-- Adicione mais itens conforme necessário -->
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 Site de Notícias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
